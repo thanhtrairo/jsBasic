@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- main style -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+      <!-- bai1 -->
+    <div class="bai1 bg-primary text-white p-5">
+        <h2>Bai 1</h2>
+        <p id="text">Javacript Exercises - w3resources</p>
+        <div>
+            <button class="btn btn-light" id="jsstyle" onclick="js_style()">Style</button>
+        </div>
+    </div>
+
+    <!-- bai2 -->
+    <div class="bai2 bg-danger text-white p-5">
+        <h2>Bai 2</h2>
+        <p><a href="http://www.w3resources.com" id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self">w3resources</a></p>
+        <button class="btn btn-light" onclick="getAttributes()">Click here to get attributes value</button>
+    </div>
+
+    <!-- bai3 -->
+    <div class="bai3 bg-warning text-white p-5">
+        <h2>Bai 3</h2>
+        <table id="sampleTable"  border="1" style="border-color: #fff;">
+            <tr>
+                <td>Row1 cell1</td>
+                <td>Row1 cell2</td>
+            </tr>
+            <tr>
+                <td>Row2 cell1</td>
+                <td>Row2 cell2</td>
+            </tr>
+        </table><br />
+        <input class="btn btn-light" type="button" onclick="insert_Row()" value="Insert row">
+    </div>
+
+
+    <!-- bai4,5,6 -->
+    <div class="bai456 bg-success text-white p-5">
+        <h2>Bai 4 5 6</h2>
+        <div class="form-group">
+            <h2 id="Error"></h2>
+            <h6 id="maxLength"></h6>
+          <input type="text" name="" id="txtInput" class="form-control" placeholder="Enter your name..." aria-describedby="helpId">
+          <input class="my-2 btn btn-light" type="button" value="Sort" onclick="Sort()">
+          <input class="my-2 btn btn-light" type="button" value="toUpperCase" onclick="toUpperCase()">
+          <input class="my-2 btn btn-light" type="button" value="longest" onclick="longest()">
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- main -->
+    <script src="main.js"></script>
+  </body>
+</html>
